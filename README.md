@@ -1,6 +1,10 @@
-# fish-prompt
+# fish-my-theme
+
+## Installation
+
+### fisherman
 
 ```sh
-$ fisher naoty/fish-prompt
+$ fisher naoty/fish-my-theme
 ```
 

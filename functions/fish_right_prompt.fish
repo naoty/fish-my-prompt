@@ -1,6 +1,11 @@
 function fish_right_prompt
     set -l pwd_info (pwd_info "/")
 
+    if git_is_repo
+        set -l branch_name (git_branch_name)
+        echo "[$branch_name] "
+    end
+
     echo "["
 
     if pwd_is_home
