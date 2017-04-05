@@ -6,6 +6,10 @@ function fish_right_prompt
         set -l git_color (set_color green)
         set -l branch_name (git_branch_name)
 
+        if git_is_touched
+            set git_color (set_color yellow)
+        end
+
         if git_is_dirty
             set git_color (set_color red)
         end
