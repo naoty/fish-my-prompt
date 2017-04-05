@@ -1,7 +1,7 @@
-# fish-my-prompt
+# fish-my_prompt
 
 ## Installation
 
 ```sh
-$ fisher naoty/fish-my-prompt
+$ fisher naoty/fish-my_prompt
 ```
