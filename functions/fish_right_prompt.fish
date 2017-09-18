@@ -33,5 +33,10 @@ function fish_right_prompt
         echo "$pwd_info[1]"
     end
 
+    if test ! -z "$pwd_info[3]"
+        echo "/"
+        echo "$pwd_info[3]"
+    end
+
     echo "]"
 end
